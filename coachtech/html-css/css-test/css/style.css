@@ -1,0 +1,70 @@
+header {
+    width: 1500px;
+    margin: 40px 0 150px 30px;
+    color: #000099;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ttl {
+    font-size: 35px;
+    width: 1000px;
+}
+
+.nav {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+}
+
+.nav__home {
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+
+.nav__businesscontent {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav__recruitment {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav__contact {
+    padding: 0 50px 0 15px;
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1530px;
+    height: 630px;
+    position: relative;
+}
+.main-content__img img {
+    width: 765px;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    z-index: 100
+}
+
+.main-content__ttl {
+    font-size: 75px;
+    font-weight: normal;
+    position: absolute;
+    top: 45%;
+}
+
+.main-content__img--blue {
+    width: 1200px;
+    height: 275px;
+    background:#000099;
+    position: absolute;
+    top: 57%;
+}
