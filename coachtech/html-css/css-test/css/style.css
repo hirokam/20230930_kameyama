@@ -1,5 +1,9 @@
+body {
+    max-width: 1500vw;
+}
+
 header {
-    width: 1500px;
+    width: 1400px;
     margin: 40px 0 150px 30px;
     color: #000099;
     display: flex;
@@ -9,7 +13,7 @@ header {
 }
 .ttl {
     font-size: 35px;
-    width: 1000px;
+    width: 900px;
 }
 
 .nav {
@@ -42,7 +46,7 @@ ul {
 }
 
 .main-content {
-    width: 1530px;
+    width: 1440px;
     height: 630px;
     position: relative;
 }
@@ -55,10 +59,10 @@ ul {
 }
 
 .main-content__ttl {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: normal;
     position: absolute;
-    top: 45%;
+    top: 47%;
 }
 
 .main-content__img--blue {
